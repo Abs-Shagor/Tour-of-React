@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+
+.title-design {
+  padding: 10px;
+  color: orange;
+  border: 1px solid white;
+  border-radius: 10px;
+}
