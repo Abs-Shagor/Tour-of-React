@@ -1,0 +1,20 @@
+
+.country-box-design {
+    border: 1px solid tomato;
+    padding: 10px;
+    margin: 10px;
+}
+.flag-img-design {
+    height: 100px;
+    width: 170px;
+    box-shadow: 0 10px 10px gray;
+}
+.countries-box-design {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.country-i-visited-list-design {
+    border: 1px solid green;
+    padding: 10px;
+    margin: 10px;
+}
