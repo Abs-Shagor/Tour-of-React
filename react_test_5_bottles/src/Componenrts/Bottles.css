@@ -1,0 +1,21 @@
+.bottles-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.bottle-card-design {
+    background-color: rgb(222, 217, 217);
+    border: 1px solid rgb(188, 132, 132);
+    box-shadow: 0 5px 5px gray;
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+.bottle-img-design {
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 2px 2px gray;
+}
