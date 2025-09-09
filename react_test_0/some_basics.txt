@@ -1,0 +1,86 @@
+/// React
+React is a JavaScript library which is used for frontend development.
+Node.js is a JavaScript runtime environment which is used for a backend development.
+
+
+
+/// Some Core Concepts of React which we use in most of the code
+1. Components – Reusable UI blocks (function MyComponent() {....}).
+2. JSX –  is a JavaScript syntax that lets you write HTML-like code inside JavaScript.
+3. Rendering  – Displaying components in webpage
+4. Conditional Rendering – Showing/hiding components on some conditions  ({isLoggedIn && <Profile />}).
+5. Props(Properties) – Passing data to components (<Component prop={value}> < Component />).
+6. Event Handling – Responding to user actions (onClick={handleClick}).
+7. Hooks – Reusable logic (useState, useEffect, etc.).
+8. useState – We use it where the Data changes over time.
+9. useEffect  – We use it  to perform side effects(outside operations ex. API calls) after rendering.
+
+
+
+
+/// React Setup
+Go to the folder(through cmd) where you will do project =>
+
+1. Create a React application
+Run:	npm create vite@latest set_folder_name -- --template react
+cd folder_name
+	npm install
+	npm run dev (To open or show our project in browser like open liveserver)
+
+2. Install Tailwind  + DaisyUI
+Run:	npm install tailwindcss@latest @tailwindcss/vite@latest daisyui@latest
+
+	Add the below two lines of code in the vite.config.js file:
+	import tailwindcss from '@tailwindcss/vite'
+	plugins: [react(), tailwindcss()],
+
+	Add the below two lines of code to the index.css file:
+	@import "tailwindcss";
+@plugin "daisyui";
+
+	
+
+
+3. Change(off)  the rule in eslint.config.js to hide the warning ‘is defined but never used’
+
+4. For icons, we can use react icons. (Visit: react icons website)
+Run:	npm install react-icons --save
+
+5. To draw different types of chart/diagram use rechart. (Visit: rechart website)
+Run:	npm install recharts
+
+6. We can use axios instead of fetch to load data.
+Run:	npm install axios
+
+7. We can use beautiful interactive components from ‘react awesome components’ site.
+Run:	npm install your_needed_components
+
+8. To use React  Router
+Run:	npm install react-router-dom
+
+Add the below line in the main.jsx file and so on..
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+
+9. To use Dynamic title for every page in website use  React Helmet
+Run:	npm install react-helmet
+
+
+9. To integrate a simple Map(pigeon map from awesome components)
+Run:	npm install --save pigeon-maps
+
+
+
+
+To Deploy a React Project
+Go to the specific project  folder
+Run:	npm run build (it will create a ‘dist’ folder)
+
+1. Surge: just run ‘surge dist’ after the ‘npm run build’ command, it will deploy the project in surge.
+2. Netlify: just upload the dist folder
+
+Note: if we change something after deploy, we have to run ‘npm run build’ again and deploy in the same way.
+
+Here, You Go……………………..>
+
+	

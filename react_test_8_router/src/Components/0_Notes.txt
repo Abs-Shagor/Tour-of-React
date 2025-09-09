@@ -1,0 +1,14 @@
+
+Some necessary hooks:
+
+1/ useState
+2/ useEfffect
+3/ useNavigate
+4/ useNavigation
+5/ useLoaderData
+6/ useRouteError
+7/ useLocation
+8/ useOutlet
+9/ useParams
+10/ NavLink
+11/ useContext

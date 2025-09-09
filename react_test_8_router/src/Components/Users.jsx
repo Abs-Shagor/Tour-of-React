@@ -6,7 +6,6 @@ function Users() {
     const users = useLoaderData();
     return (
         <div>
-            <h3 className=" text-[30px] text-center mt-20 "> I am from Users section</h3>
             <div className=" grid grid-cols-3 gap-5 ">
                 {
                     users.map(user => {
